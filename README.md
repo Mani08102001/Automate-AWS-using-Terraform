@@ -19,7 +19,7 @@ Setting up infrastructure on AWS using Terraform
 
 ## Step2:
 
--Create a Security group to access the server from outside which allows both HTTP and SSH traffic.
+- Create a Security group to access the server from outside which allows both HTTP and SSH traffic.
 
 - Next, create a route table which routes incoming traffic to the instance.
   
@@ -27,12 +27,12 @@ Setting up infrastructure on AWS using Terraform
 
 ## Step3:
 
--Finally, create a Application load balancer to maintain the traffic passing to the instance.
+- Finally, create a Application load balancer to maintain the traffic passing to the instance.
 
--Create a target group which has instances.
+- Create a target group which has instances.
 
--Associate that target group with the Application load balancer.
+- Associate that target group with the Application load balancer.
 
--Make a listener port as 80 to allow HTTP traffic to the Load balancer.
+- Make a listener port as 80 to allow HTTP traffic to the Load balancer.
 
--Yeah!!! Now the project is ready....
+**Yeah!!! Now the project is ready....**
